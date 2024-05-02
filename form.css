@@ -1,0 +1,166 @@
+/* untuk part form */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  /* untuk container display-form*/
+
+  /* Style untuk container */
+#totalOrdersContainer {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Style untuk judul */
+  #totalOrdersContainer h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #343a40;
+  }
+  
+  /* Style untuk jumlah pesanan */
+  #totalOrders {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+    margin-top: 5px;
+  }
+  
+  /* untuk container display-form 2*/
+ 
+.order-summary {
+    margin-top: 50px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-summary h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .order-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .order-item:last-child {
+    border-bottom: none;
+  }
+  
+  .order-item span {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .order-item .quantity {
+    color: green;
+  }
+  
+  .order-item .item-name {
+    flex: 1;
+    margin-right: 10px;
+  }
+  .total-orders {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .total-orders h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .total-orders p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .total-orders .total-amount {
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+  }
+
+  .container-fluid {
+  padding: 0;
+}
+
+.row {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 767.98px) {
+  .row {
+    height: auto;
+  }
+}
+
+    
+  
